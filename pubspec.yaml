@@ -1,0 +1,41 @@
+name: vendeme
+description: A new Flutter project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+  #here put dependences
+  provider:
+  shared_preferences:
+  font_awesome_flutter:
+  google_sign_in:
+  firebase_auth:
+  flutter_facebook_login:
+  firebase_core:
+  firebase_database:
+  sqflite:
+  path_provider:
+  carousel_slider:
+  flare_flutter:
+
+    
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+  assets:
+    - assets/switch_daytime.flr
+  uses-material-design: true
+
